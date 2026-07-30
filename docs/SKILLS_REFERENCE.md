@@ -1,6 +1,6 @@
 # Skills Reference
 
-Complete catalog of all 154 skills included in this collection.
+Complete catalog of all 384 skills included in this collection.
 
 ---
 

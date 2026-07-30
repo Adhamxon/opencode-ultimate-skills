@@ -3,13 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![OpenCode](https://img.shields.io/badge/OpenCode-Ready-6C47FF)](https://opencode.ai)
 
-A comprehensive, production-ready collection of **154 curated skills**, **9 specialized agents**, and **9 custom commands** for [OpenCode](https://opencode.ai) — the AI-powered coding assistant.
+A comprehensive, production-ready collection of **384 curated skills**, **9 specialized agents**, and **9 custom commands** for [OpenCode](https://opencode.ai) — the AI-powered coding assistant.
 
 ---
 
 ## Features
 
-- **154 Pre-installed Skills** — Curated from top community collections (Anthropic, Matt Pocock, Addy Osmani, Google Cloud, HuggingFace, animation experts, and more)
+- **384 Pre-installed Skills** — Curated from top community collections (Anthropic, Matt Pocock, Addy Osmani, Google Cloud, HuggingFace, Wondelai book skills, project management, animation experts, and more)
 - **9 Specialized Agents** — Full-stack developer, code reviewer, DevOps engineer, TDD practitioner, architect, security auditor, QA engineer, bug hunter, UI/UX designer
 - **9 Custom Commands** — Quick-access commands for review, deploy, test, fix, design, security audit, and architecture planning
 - **Multi-language Support** — TypeScript, Python, Java, C#, Go, Rust, Kotlin, Swift, and more
@@ -82,7 +82,7 @@ Agents are defined both inline in `opencode.json` and as individual Markdown fil
 
 ## Skills Catalog
 
-The collection includes **154 skills** organized by source:
+The collection includes **384 skills** organized by source:
 
 ### Anthropic Skills (16)
 `claude-api` · `mcp-builder` · `skill-creator` · `webapp-testing` · `frontend-design` · `theme-factory` · `brand-guidelines` · `canvas-design` · `algorithmic-art` · `xlsx` · `pptx` · `docx` · `pdf-anthropic` · `internal-comms` · `doc-coauthoring` · `web-artifacts-builder`
@@ -111,6 +111,24 @@ The collection includes **154 skills** organized by source:
 ### Karpathy Guidelines (1) ⭐ NEW
 `karpathy-guidelines`
 
+### Wondelai Book Skills (62) ⭐⭐ NEW
+`37signals-way` · `blue-ocean-strategy` · `clean-architecture` · `clean-code` · `cold-start-problem` · `contagious` · `continuous-discovery` · `create-app` · `create-business` · `create-website` · `cro-methodology` · `crossing-the-chasm` · `ddia-systems` · `design-code-architecture` · `design-everyday-things` · `design-sprint` · `domain-driven-design` · `drive-motivation` · `good-strategy-bad-strategy` · `grow-app` · `grow-business` · `grow-website` · `high-output-management` · `high-perf-browser` · `hooked-ux` · `hundred-million-offers` · `improve-app` · `improve-business` · `improve-code-quality` · `improve-retention` · `improve-website` · `influence-psychology` · `inspired-product` · `ios-hig-design` · `jobs-to-be-done` · `lean-analytics` · `lean-startup` · `lean-ux` · `made-to-stick` · `microinteractions` · `mom-test` · `monetizing-innovation` · `negotiation` · `obviously-awesome` · `one-page-marketing` · `pragmatic-programmer` · `predictable-revenue` · `refactoring-patterns` · `refactoring-ui` · `release-it` · `remove-technical-debt` · `scorecard-marketing` · `software-design-philosophy` · `steve-jobs-design-review` · `storybrand-messaging` · `system-design` · `team-topologies` · `top-design` · `traction-eos` · `ux-heuristics` · `web-typography` · `working-with-legacy-code`
+
+### Project Management Skills (68) ⭐⭐ NEW
+`ab-test-analysis` · `analyze-feature-requests` · `ansoff-matrix` · `beachhead-segment` · `brainstorm-experiments-existing` · `brainstorm-experiments-new` · `brainstorm-ideas-existing` · `brainstorm-ideas-new` · `brainstorm-okrs` · `business-model` · `cohort-analysis` · `competitive-battlecard` · `competitor-analysis` · `create-prd` · `customer-journey-map` · `draft-nda` · `grammar-check` · `growth-loops` · `gtm-motions` · `gtm-strategy` · `ideal-customer-profile` · `identify-assumptions-existing` · `identify-assumptions-new` · `intended-vs-implemented` · `interview-script` · `job-stories` · `lean-canvas` · `market-segments` · `market-sizing` · `marketing-ideas` · `metrics-dashboard` · `monetization-strategy` · `north-star-metric` · `opportunity-solution-tree` · `outcome-roadmap` · `pestle-analysis` · `porters-five-forces` · `positioning-ideas` · `pre-mortem` · `pricing-strategy` · `prioritization-frameworks` · `prioritize-assumptions` · `prioritize-features` · `privacy-policy` · `product-name` · `product-strategy` · `product-vision` · `release-notes` · `retro` · `review-resume` · `sentiment-analysis` · `shipping-artifacts` · `sprint-plan` · `sql-queries` · `stakeholder-map` · `startup-canvas` · `strategy-red-team` · `summarize-interview` · `summarize-meeting` · `swot-analysis` · `test-scenarios` · `user-personas` · `user-segmentation` · `user-stories` · `value-prop-statements` · `value-proposition` · `wwas`
+
+### iOS & Swift Skills (16) ⭐⭐ NEW
+`app-store-changelog` · `bug-hunt-swarm` · `github` · `ios-debugger-agent` · `macos-menubar-tuist-app` · `macos-spm-app-packaging` · `orchestrate-batch-refactor` · `project-skill-audit` · `react-component-performance` · `review-and-simplify-changes` · `review-swarm` · `swift-concurrency-expert` · `swiftui-liquid-glass` · `swiftui-performance-audit` · `swiftui-ui-patterns` · `swiftui-view-refactor`
+
+### Obsidian Skills (5) ⭐⭐ NEW
+`defuddle` · `json-canvas` · `obsidian-bases` · `obsidian-cli` · `obsidian-markdown`
+
+### Web & Framework Skills (45) ⭐⭐ NEW
+`supabase-postgres-best-practices` · `supabase` · `sveltekit` · `tailwind-design-system` · `tailwind-patterns` · `tanstack-query-expert` · `threejs-animation` · `threejs-fundamentals` · `threejs-interaction` · `threejs-materials` · `threejs-postprocessing` · `threejs-textures` · `trpc-fullstack` · `turborepo-caching` · `typescript-advanced-types` · `typescript-expert` · `ui-a11y` · `ui-component` · `ui-motion` · `ui-tokens` · `unslop` · `unslop-commit` · `unslop-file` · `unslop-review` · `using-git-worktrees` · `uv-package-manager` · `vector-database-engineer` · `vercel-ai-sdk-expert` · `verification-before-completion` · `vitest-skill` · `weaviate` · `workflow-automation` · `writing-great-skills` · `zod-validation-expert` · `zustand-store-ts`
+
+### Security Testing Skills (42) ⭐⭐ NEW
+`performing-api-security-testing-with-postman` · `performing-cve-prioritization-with-kev-catalog` · `performing-docker-bench-security-assessment` · `performing-ssl-tls-security-assessment` · `performing-web-application-penetration-test` · `remediating-s3-bucket-misconfiguration` · `scanning-container-images-with-grype` · `scanning-docker-images-with-trivy` · `scanning-iac-and-images-with-trivy` · `scanning-kubernetes-manifests-with-kubesec` · `scanning-network-with-nmap-advanced` · `securing-api-gateway-with-aws-waf` · `securing-aws-iam-permissions` · `securing-aws-lambda-execution-roles` · `securing-github-actions-workflows` · `securing-kubernetes-on-cloud` · `securing-serverless-functions` · `sql-injection-testing` · `testing-api-authentication-weaknesses` · `testing-api-for-broken-object-level-authorization` · `testing-api-for-mass-assignment-vulnerability` · `testing-api-security-with-owasp-top-10` · `testing-cors-misconfiguration` · `testing-for-business-logic-vulnerabilities` · `testing-for-email-header-injection` · `testing-for-host-header-injection` · `testing-for-json-web-token-vulnerabilities` · `testing-for-open-redirect-vulnerabilities` · `testing-for-sensitive-data-exposure` · `testing-for-xss-vulnerabilities` · `testing-for-xxe-injection-vulnerabilities` · `testing-jwt-token-security` · `testing-oauth2-implementation-flaws` · `testing-patterns` · `testing-prompt-injection-in-rag-pipelines` · `testing-websocket-api-security` · `threat-modeling-expert` · `verifying-build-provenance-with-slsa-sigstore` · `vulnerability-scanner` · `wcag-audit-patterns` · `web-security-testing` · `systematic-debugging`
+
 ### Custom Enhanced Skills (11) ⭐ NEW
 `ai-ml-engineering` · `api-design-best-practices` · `auth-authorization` · `database-optimization` · `message-queues` · `mobile-development` · `observability` · `performance-optimization` · `system-design` · `testing-strategies` · `web-accessibility`
 
@@ -119,17 +137,17 @@ The collection includes **154 skills** organized by source:
 
 ---
 
-## What's New (v2.0)
+## What's New (v3.0)
 
-This major update adds **42 new skills** from top community sources:
+This massive update adds **230 new skills** from 5 major new collections:
 
 | Source | Skills Added |
 |--------|-------------|
-| **Addy Osmani Agent Skills** | 22 professional engineering skills (spec-driven, code-simplification, debugging, CI/CD, security, planning, etc.) |
-| **Awesome LLM Apps** | 5 agent skills (commit-archaeologist, project-graveyard, scope-creep-detector, thinking-out-loud, advisor-orchestrator-worker) |
-| **HuggingFace** | 3 ML/AI skills (TRL training, Transformers.js, Sentence Transformers) |
-| **Karpathy Guidelines** | 1 skill — 4 fundamental principles for AI coding |
-| **Custom Enhanced** | 11 specialized skills (AI/ML, API design, auth, databases, messaging, mobile, observability, performance, system design, testing, accessibility) |
+| **Wondelai Book Skills** | 62 book-based skills (clean architecture, DDD, pragmatic programmer, system design, UX, business strategy, etc.) |
+| **Project Management** | 68 PM skills (OKRs, PRDs, sprints, roadmaps, user stories, market research, GTM strategy, etc.) |
+| **iOS & Swift Skills** | 16 iOS/Swift development skills (SwiftUI, concurrency, debugging, etc.) |
+| **Web & Framework Skills** | 45 modern web development skills (TypeScript, Three.js, Tailwind, TanStack, tRPC, SvelteKit, etc.) |
+| **Security Testing** | 42 security testing skills (OWASP, API security, cloud security, container scanning, penetration testing, etc.) |
 
 **[View full changelog →](CHANGELOG.md)**
 
@@ -164,7 +182,7 @@ Opencode_skills/
 │   ├── opencode.json                 # Main configuration
 │   ├── agents/                       # 9 agent definitions
 │   ├── commands/                     # 9 command definitions
-│   ├── skills/                       # 154 skill folders
+│   ├── skills/                       # 384 skill folders
 │   ├── plugins/                      # Extensible plugin directory
 │   └── references/                   # Reference materials
 ├── docs/                             # Documentation
