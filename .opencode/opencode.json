@@ -113,6 +113,44 @@
       "description": "TDD cycle boshlash (test-first development)",
       "agent": "tdd-developer",
       "template": "TDD bo'yicha ishlashni boshlaymiz. $ARGUMENTS"
+    },
+    "debug": {
+      "description": "Bug/larni diagnostika qilish va tuzatish",
+      "agent": "bug-hunter",
+      "template": "Bug/larni diagnostika qil va tuzat. $ARGUMENTS"
+    },
+    "docs": {
+      "description": "Dokumentatsiya yaratish va yangilash",
+      "template": "Dokumentatsiya yarat yoki yangila. $ARGUMENTS"
+    },
+    "refactor": {
+      "description": "Kodni refactoring qilish va tozalash",
+      "agent": "architect",
+      "template": "Kodni refactoring qil. $ARGUMENTS"
+    },
+    "optimize": {
+      "description": "Performance optimizatsiya va tezlashtirish",
+      "template": "Performance ni optimizatsiya qil. $ARGUMENTS"
+    },
+    "analyze": {
+      "description": "Kod bazasini chuqur tahlil qilish",
+      "agent": "architect",
+      "template": "Kod bazasini tahlil qil. $ARGUMENTS"
+    },
+    "generate": {
+      "description": "Kod yaratish va generatsiya qilish",
+      "agent": "fullstack-dev",
+      "template": "Kod yarat. $ARGUMENTS"
+    },
+    "learn": {
+      "description": "Kod bazasini o'rganish va tahlil qilish",
+      "agent": "architect",
+      "template": "Kod bazasini o'rgan va tahlil qil. $ARGUMENTS"
+    },
+    "audit": {
+      "description": "To'liq security audit o'tkazish",
+      "agent": "security-auditor",
+      "template": "To'liq security audit o'tkaz. $ARGUMENTS"
     }
   },
 
