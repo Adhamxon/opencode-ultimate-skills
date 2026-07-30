@@ -1,5 +1,5 @@
 ---
-description: Software architecture expert: domain modeling, codebase design, microservices, patterns, system design
+description: "Software architecture expert: domain modeling, codebase design, microservices, patterns, system design"
 mode: subagent
 model: anthropic/claude-sonnet-4-6
 permission:

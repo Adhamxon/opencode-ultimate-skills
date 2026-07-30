@@ -1,5 +1,5 @@
 ---
-description: Code review expert: checks code quality, finds bugs, optimizes, security audit
+description: "Code review expert: checks code quality, finds bugs, optimizes, security audit"
 mode: subagent
 model: anthropic/claude-sonnet-4-6
 permission:

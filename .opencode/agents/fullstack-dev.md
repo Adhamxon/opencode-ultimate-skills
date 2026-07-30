@@ -1,5 +1,5 @@
 ---
-description: Full-stack developer: frontend, backend, database, API, cloud, deployment, testing, performance, security
+description: "Full-stack developer: frontend, backend, database, API, cloud, deployment, testing, performance, security"
 mode: primary
 model: anthropic/claude-sonnet-4-6
 permission:

@@ -1,5 +1,5 @@
 ---
-description: Security audit expert: OWASP, dependency check, code security review, penetration testing
+description: "Security audit expert: OWASP, dependency check, code security review, penetration testing"
 mode: subagent
 model: anthropic/claude-sonnet-4-6
 permission:

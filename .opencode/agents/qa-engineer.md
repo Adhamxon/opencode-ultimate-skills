@@ -1,5 +1,5 @@
 ---
-description: Quality Assurance: test plan, E2E testing, Playwright, integration tests, performance testing
+description: "Quality Assurance: test plan, E2E testing, Playwright, integration tests, performance testing"
 mode: subagent
 model: anthropic/claude-sonnet-4-6
 permission:

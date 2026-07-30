@@ -1,5 +1,5 @@
 ---
-description: UI/UX designer: frontend design, animation, responsive design, CSS/HTML, accessibility, design systems
+description: "UI/UX designer: frontend design, animation, responsive design, CSS/HTML, accessibility, design systems"
 mode: subagent
 model: anthropic/claude-sonnet-4-6
 permission:

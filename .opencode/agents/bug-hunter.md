@@ -1,5 +1,5 @@
 ---
-description: Bug diagnosis expert: reproduction, root cause analysis, fix+test, debugging
+description: "Bug diagnosis expert: reproduction, root cause analysis, fix+test, debugging"
 mode: subagent
 model: anthropic/claude-sonnet-4-6
 permission:

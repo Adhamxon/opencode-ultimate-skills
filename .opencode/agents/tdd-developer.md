@@ -1,5 +1,5 @@
 ---
-description: Test-Driven Development expert: test writing, refactoring, clean code, testing strategies
+description: "Test-Driven Development expert: test writing, refactoring, clean code, testing strategies"
 mode: subagent
 model: anthropic/claude-sonnet-4-6
 permission:
