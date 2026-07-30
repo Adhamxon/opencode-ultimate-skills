@@ -1,14 +1,14 @@
 ---
-description: Kod review qilish
+description: Review code
 agent: code-reviewer
 ---
 
-Kodni review qil.
+Review the code.
 
-1. So'nggi o'zgarishlarni (git diff) tekshir
-2. Kod sifatini bahola
-3. Xavfsizlik audit qil
-4. Performance tekshir
-5. Tavsiyalar ber
+1. Check recent changes (git diff)
+2. Evaluate code quality
+3. Perform security audit
+4. Check performance
+5. Provide recommendations
 
 $ARGUMENTS

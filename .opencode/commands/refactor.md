@@ -1,14 +1,14 @@
 ---
-description: Kodni refactoring qilish va tozalash
+description: Refactor and clean up code
 agent: architect
 ---
 
-Kodni refactoring qilish va tozalash.
+Refactor and clean up code.
 
-1. Kod sifatini tahlil qil
-2. Clean Code prinsiplariga moslashtir
-3. SOLID prinsiplarini qo'lla
-4. Duplicate code ni olib tashla
-5. Testlar hali ham ishlayotganini tekshir
+1. Analyze code quality
+2. Align with Clean Code principles
+3. Apply SOLID principles
+4. Remove duplicate code
+5. Verify tests still pass
 
 $ARGUMENTS

@@ -1,13 +1,13 @@
 ---
-description: Bug/larni diagnostika qilish va tuzatish
+description: Diagnose and fix bugs
 agent: bug-hunter
 ---
 
-Bug/larni diagnostika qilish va tuzatish.
+Diagnose and fix bugs.
 
-1. Bug'ni reproduce qilish yo'lini top
-2. Root cause analysis o'tkaz
-3. Fix yoz va regression test qo'sh
-4. Fix ni tekshir va dokumentatsiya qil
+1. Find reproduction steps
+2. Perform root cause analysis
+3. Write fix and add regression test
+4. Verify fix and document
 
 $ARGUMENTS

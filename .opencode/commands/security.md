@@ -1,14 +1,14 @@
 ---
-description: Security audit o'tkazish
+description: Run security audit
 agent: security-auditor
 ---
 
-Security audit o'tkaz.
+Run security audit.
 
-1. Kodni xavfsizlik nuqtai nazaridan tekshir
-2. Dependency'larni tekshir (npm audit, pip audit)
-3. OWASP Top 10 bo'yicha tekshir
-4. Secret'lar va konfiguratsiyani tekshir
-5. Tavsiyalar ber
+1. Review code for security issues
+2. Check dependencies (npm audit, pip audit)
+3. Check against OWASP Top 10
+4. Check secrets and configuration
+5. Provide recommendations
 
 $ARGUMENTS

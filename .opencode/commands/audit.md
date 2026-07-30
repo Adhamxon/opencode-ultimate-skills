@@ -1,14 +1,14 @@
 ---
-description: To'liq security audit o'tkazish
+description: Run full security audit
 agent: security-auditor
 ---
 
-To'liq security audit o'tkazish.
+Run full security audit.
 
-1. OWASP Top 10 bo'yicha to'liq tekshirish
-2. Dependency'larni skanerlash
-3. Secret'lar va konfiguratsiyani tekshirish
-4. Xavfsizlik zaifliklarini aniqlash
-5. Hisobot tayyorlash
+1. Full OWASP Top 10 check
+2. Scan dependencies
+3. Check secrets and configuration
+4. Identify security vulnerabilities
+5. Prepare report
 
 $ARGUMENTS

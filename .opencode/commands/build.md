@@ -1,12 +1,12 @@
 ---
-description: Loyihani build qilish
+description: Build the project
 ---
 
-Loyihani build qil.
+Build the project.
 
-1. Kerakli build tool'ni aniql
-2. Build ni ishga tushur
-3. Xatoliklarni tekshir
-4. Build natijasini ko'rsat
+1. Identify required build tool
+2. Run the build
+3. Check for errors
+4. Show build results
 
 $ARGUMENTS

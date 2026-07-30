@@ -1,14 +1,14 @@
 ---
-description: UI/UX design yaratish
+description: Create UI/UX design
 agent: designer
 ---
 
-UI/UX design yarat.
+Create UI/UX design.
 
-1. Talablarni tahlil qil
-2. Layout/structure ni rejala
-3. HTML/CSS kod yoz
-4. Responsive design ni tekshir
-5. Animatsiya (agar kerak bo'lsa)
+1. Analyze requirements
+2. Plan layout/structure
+3. Write HTML/CSS code
+4. Check responsive design
+5. Animation (if needed)
 
 $ARGUMENTS

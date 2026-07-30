@@ -1,15 +1,15 @@
 ---
-description: Bug/lar ni tuzatish
+description: Fix bugs
 agent: bug-hunter
 ---
 
-Bug/topshiriq ni tuzat.
+Fix bug/task.
 
-1. Bug'ni tahlil qil
-2. Reproduce qilish yo'lini top
-3. Root cause ni aniql
-4. Fix yoz
-5. Regression test qo'sh
-6. Fix ni tekshir
+1. Analyze the bug
+2. Find reproduction steps
+3. Identify root cause
+4. Write fix
+5. Add regression test
+6. Verify fix
 
 $ARGUMENTS

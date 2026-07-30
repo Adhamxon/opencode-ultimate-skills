@@ -1,14 +1,14 @@
 ---
-description: TDD cycle boshlash (test-first development)
+description: Start TDD cycle (test-first development)
 agent: tdd-developer
 ---
 
-TDD bo'yicha ishlashni boshlaymiz.
+Starting TDD workflow.
 
-1. Test case'larni aniql
-2. RED: Test yoz (ishlamaydi)
-3. GREEN: Minimal kod yoz (test ishlaydi)
-4. REFACTOR: Kodni tozala
-5. Keyingi testga o't
+1. Identify test cases
+2. RED: Write test (fails)
+3. GREEN: Write minimal code (test passes)
+4. REFACTOR: Clean up code
+5. Move to next test
 
 $ARGUMENTS

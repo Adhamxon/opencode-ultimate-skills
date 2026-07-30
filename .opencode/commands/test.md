@@ -1,14 +1,14 @@
 ---
-description: Testlarni ishga tushirish va tahlil qilish
+description: Run and analyze tests
 agent: qa-engineer
 ---
 
-Testlarni ishga tushur va tahlil qil.
+Run and analyze tests.
 
-1. Qaysi testlar borligini aniql
-2. Testlarni ishga tushir
-3. Natijalarni tahlil qil
-4. Muvaffaqiyatsiz testlarni report qil
-5. Coverage hisobotini ko'rsat
+1. Identify available tests
+2. Run tests
+3. Analyze results
+4. Report failed tests
+5. Show coverage report
 
 $ARGUMENTS

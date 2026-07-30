@@ -1,13 +1,13 @@
 ---
-description: Dokumentatsiya yaratish va yangilash
+description: Create and update documentation
 ---
 
-Dokumentatsiya yaratish va yangilash.
+Create and update documentation.
 
-1. API dokumentatsiyasini tekshir
-2. README ni yangila (agar kerak bo'lsa)
-3. JSDoc/TSDoc comment'lar qo'sh
-4. Architecture Decision Record (ADR) yoz
-5. OpenAPI/Swagger spec ni tekshir
+1. Check API documentation
+2. Update README (if needed)
+3. Add JSDoc/TSDoc comments
+4. Write Architecture Decision Record (ADR)
+5. Check OpenAPI/Swagger spec
 
 $ARGUMENTS

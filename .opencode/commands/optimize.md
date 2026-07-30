@@ -1,13 +1,13 @@
 ---
-description: Performance optimizatsiya va tezlashtirish
+description: Performance optimization and speedup
 ---
 
-Performance optimizatsiya va tezlashtirish.
+Performance optimization and speedup.
 
-1. Performance muammolarini aniqlash
-2. Bundle size ni optimizatsiya qilish
-3. Database query'larni optimizatsiya qilish
-4. Caching strategiyasini takomillashtirish
-5. Core Web Vitals ni yaxshilash
+1. Identify performance issues
+2. Optimize bundle size
+3. Optimize database queries
+4. Improve caching strategy
+5. Improve Core Web Vitals
 
 $ARGUMENTS

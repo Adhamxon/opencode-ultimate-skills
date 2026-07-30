@@ -1,14 +1,14 @@
 ---
-description: Arxitektura maslahati olish
+description: Get architecture advice
 agent: architect
 ---
 
-Arxitektura bo'yicha maslahat ber.
+Provide architecture advice.
 
-1. Talablarni tahlil qil
-2. Mavjud kod bazasini o'rgan
-3. Architecture pattern taklif qil
-4. Pros/Cons ni ko'rsat
-5. Diagramma (agar kerak bo'lsa)
+1. Analyze requirements
+2. Study existing codebase
+3. Suggest architecture patterns
+4. Show pros/cons
+5. Diagram (if needed)
 
 $ARGUMENTS

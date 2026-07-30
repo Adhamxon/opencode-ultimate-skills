@@ -1,14 +1,14 @@
 ---
-description: Kod bazasini chuqur tahlil qilish
+description: Deep codebase analysis
 agent: architect
 ---
 
-Kod bazasini chuqur tahlil qilish.
+Deep codebase analysis.
 
-1. Loyiha strukturasi va arxitekturasini tahlil qil
-2. Bog'liqliklar (dependencies) ni tahlil qil
-3. Kod sifati metrikalarini hisobla
-4. Technical debt ni bahola
-5. Takomillashtirish rejasini tuz
+1. Analyze project structure and architecture
+2. Analyze dependencies
+3. Calculate code quality metrics
+4. Assess technical debt
+5. Create improvement plan
 
 $ARGUMENTS

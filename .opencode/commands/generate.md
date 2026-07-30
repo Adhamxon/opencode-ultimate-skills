@@ -1,14 +1,14 @@
 ---
-description: Kod yaratish va generatsiya qilish
+description: Generate and write code
 agent: fullstack-dev
 ---
 
-Kod yaratish va generatsiya qilish.
+Generate and write code.
 
-1. Talablarni tahlil qil
-2. To'liq implementatsiya yoz
-3. Testlar yoz
-4. Dokumentatsiya qo'sh
-5. Clean code prinsiplariga amal qil
+1. Analyze requirements
+2. Write complete implementation
+3. Write tests
+4. Add documentation
+5. Follow clean code principles
 
 $ARGUMENTS

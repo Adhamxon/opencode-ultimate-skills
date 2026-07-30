@@ -1,14 +1,14 @@
 ---
-description: Loyihani deploy qilish (build + deploy)
+description: Deploy the project (build + deploy)
 agent: devops-engineer
 ---
 
-Loyihani deploy qilish kerak.
+Need to deploy the project.
 
-1. Build ni tekshir
-2. Docker image tayyorla (agar kerak bo'lsa)
-3. Production environment ga deploy qil
-4. Health check ni tekshir
-5. Monitoring ni tekshir
+1. Verify build
+2. Prepare Docker image (if needed)
+3. Deploy to production environment
+4. Check health
+5. Check monitoring
 
 $ARGUMENTS
