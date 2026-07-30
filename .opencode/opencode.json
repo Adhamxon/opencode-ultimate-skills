@@ -14,37 +14,37 @@
 
   "agent": {
     "fullstack-dev": {
-      "description": "Full-stack dasturchi: frontend, backend, database, API loyihalash va implementatsiya",
+      "description": "Full-stack developer: frontend, backend, database, API design and implementation",
       "mode": "primary",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "allow", "bash": { "git *": "allow", "npm *": "allow", "*": "ask" } }
     },
     "code-reviewer": {
-      "description": "Kod review bo'yicha mutaxassis: kod sifatini tekshiradi, bug'larni topadi, optimizatsiya qiladi",
+      "description": "Code review specialist: code quality checks, bug detection, optimization",
       "mode": "subagent",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "deny", "read": "allow", "bash": { "git diff *": "allow", "*": "deny" } }
     },
     "devops-engineer": {
-      "description": "DevOps muhandisi: CI/CD, Docker, Kubernetes, cloud infrastruktura, monitoring",
+      "description": "DevOps engineer: CI/CD, Docker, Kubernetes, cloud infrastructure, monitoring",
       "mode": "subagent",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "allow", "bash": { "docker *": "allow", "kubectl *": "allow", "*": "ask" } }
     },
     "tdd-developer": {
-      "description": "Test-Driven Development bo'yicha mutaxassis: test yozish, refactoring, clean code",
+      "description": "TDD specialist: test writing, refactoring, clean code",
       "mode": "subagent",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "allow", "bash": { "npm test *": "allow", "*": "ask" } }
     },
     "architect": {
-      "description": "Arxitektura bo'yicha mutaxassis: domain modeling, codebase design, microservices, patterns",
+      "description": "Architecture specialist: domain modeling, codebase design, microservices, patterns",
       "mode": "subagent",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "deny", "read": "allow", "bash": "ask" }
     },
     "security-auditor": {
-      "description": "Security audit bo'yicha mutaxassis: OWASP, dependency check, code security review",
+      "description": "Security audit specialist: OWASP, dependency check, code security review",
       "mode": "subagent",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "deny", "read": "allow", "bash": "ask" }
@@ -56,13 +56,13 @@
       "permission": { "edit": "deny", "bash": "ask" }
     },
     "bug-hunter": {
-      "description": "Bug diagnosis bo'yicha mutaxassis: reproduce qilish, root cause analysis, fix+test",
+      "description": "Bug diagnosis specialist: reproduction, root cause analysis, fix+test",
       "mode": "subagent",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "allow", "bash": { "*": "ask" } }
     },
     "designer": {
-      "description": "UI/UX dizayner: frontend design, animation, responsive design, CSS/HTML",
+      "description": "UI/UX designer: frontend design, animation, responsive design, CSS/HTML",
       "mode": "subagent",
       "model": "anthropic/claude-sonnet-4-6",
       "permission": { "edit": "allow", "bash": "ask" }
@@ -71,86 +71,86 @@
 
   "command": {
     "deploy": {
-      "description": "Loyihani deploy qilish (build + deploy)",
+      "description": "Deploy project (build + deploy)",
       "agent": "devops-engineer",
-      "template": "Loyihani deploy qilish kerak. $ARGUMENTS"
+      "template": "Deploy the project. $ARGUMENTS"
     },
     "test": {
-      "description": "Testlarni ishga tushirish va tahlil qilish",
+      "description": "Run tests and analyze results",
       "agent": "qa-engineer",
-      "template": "Testlarni ishga tushur va tahlil qil. $ARGUMENTS"
+      "template": "Run tests and analyze. $ARGUMENTS"
     },
     "review": {
-      "description": "Kod review qilish",
+      "description": "Review code for quality and issues",
       "agent": "code-reviewer",
-      "template": "Kodni review qil. $ARGUMENTS"
+      "template": "Review the code. $ARGUMENTS"
     },
     "build": {
-      "description": "Loyihani build qilish",
-      "template": "Loyihani build qil. $ARGUMENTS"
+      "description": "Build the project",
+      "template": "Build the project. $ARGUMENTS"
     },
     "fix": {
-      "description": "Bug/lar ni tuzatish",
+      "description": "Fix bugs or issues",
       "agent": "bug-hunter",
-      "template": "Bug/topshiriq ni tuzat. $ARGUMENTS"
+      "template": "Fix the bug/issue. $ARGUMENTS"
     },
     "arch": {
-      "description": "Arxitektura maslahati olish",
+      "description": "Get architecture advice and guidance",
       "agent": "architect",
-      "template": "Arxitektura bo'yicha maslahat ber. $ARGUMENTS"
+      "template": "Provide architecture advice. $ARGUMENTS"
     },
     "design": {
-      "description": "UI/UX design yaratish",
+      "description": "Create UI/UX designs",
       "agent": "designer",
-      "template": "UI/UX design yarat. $ARGUMENTS"
+      "template": "Create UI/UX design. $ARGUMENTS"
     },
     "security": {
-      "description": "Security audit o'tkazish",
+      "description": "Perform security audit",
       "agent": "security-auditor",
-      "template": "Security audit o'tkaz. $ARGUMENTS"
+      "template": "Perform security audit. $ARGUMENTS"
     },
     "tdd": {
-      "description": "TDD cycle boshlash (test-first development)",
+      "description": "Start TDD cycle (test-first development)",
       "agent": "tdd-developer",
-      "template": "TDD bo'yicha ishlashni boshlaymiz. $ARGUMENTS"
+      "template": "Start TDD workflow. $ARGUMENTS"
     },
     "debug": {
-      "description": "Bug/larni diagnostika qilish va tuzatish",
+      "description": "Diagnose and fix bugs",
       "agent": "bug-hunter",
-      "template": "Bug/larni diagnostika qil va tuzat. $ARGUMENTS"
+      "template": "Diagnose and fix bugs. $ARGUMENTS"
     },
     "docs": {
-      "description": "Dokumentatsiya yaratish va yangilash",
-      "template": "Dokumentatsiya yarat yoki yangila. $ARGUMENTS"
+      "description": "Create and update documentation",
+      "template": "Create or update documentation. $ARGUMENTS"
     },
     "refactor": {
-      "description": "Kodni refactoring qilish va tozalash",
+      "description": "Refactor and clean up code",
       "agent": "architect",
-      "template": "Kodni refactoring qil. $ARGUMENTS"
+      "template": "Refactor the code. $ARGUMENTS"
     },
     "optimize": {
-      "description": "Performance optimizatsiya va tezlashtirish",
-      "template": "Performance ni optimizatsiya qil. $ARGUMENTS"
+      "description": "Optimize performance and speed",
+      "template": "Optimize performance. $ARGUMENTS"
     },
     "analyze": {
-      "description": "Kod bazasini chuqur tahlil qilish",
+      "description": "Perform deep codebase analysis",
       "agent": "architect",
-      "template": "Kod bazasini tahlil qil. $ARGUMENTS"
+      "template": "Analyze the codebase. $ARGUMENTS"
     },
     "generate": {
-      "description": "Kod yaratish va generatsiya qilish",
+      "description": "Generate code and scaffolding",
       "agent": "fullstack-dev",
-      "template": "Kod yarat. $ARGUMENTS"
+      "template": "Generate code. $ARGUMENTS"
     },
     "learn": {
-      "description": "Kod bazasini o'rganish va tahlil qilish",
+      "description": "Learn and analyze the codebase",
       "agent": "architect",
-      "template": "Kod bazasini o'rgan va tahlil qil. $ARGUMENTS"
+      "template": "Learn and analyze the codebase. $ARGUMENTS"
     },
     "audit": {
-      "description": "To'liq security audit o'tkazish",
+      "description": "Run a full security audit",
       "agent": "security-auditor",
-      "template": "To'liq security audit o'tkaz. $ARGUMENTS"
+      "template": "Run a full security audit. $ARGUMENTS"
     }
   },
 
@@ -179,7 +179,7 @@
   "references": {
     "docs": {
       "path": "..",
-      "description": "Loyiha hujjatlari va kod bazasi"
+      "description": "Project documentation and codebase"
     }
   },
 
