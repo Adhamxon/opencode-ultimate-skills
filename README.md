@@ -164,6 +164,12 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 [MIT](LICENSE) — Free for personal and commercial use.
 
+**Attribution Required:** If you use, modify, or distribute this work, you must include the original copyright notice:
+```
+Copyright (c) 2026 Adkhamkhon
+```
+See [LICENSE](LICENSE) for full terms.
+
 ---
 
 ## Acknowledgments
