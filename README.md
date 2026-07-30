@@ -2,8 +2,26 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![OpenCode](https://img.shields.io/badge/OpenCode-Ready-6C47FF)](https://opencode.ai)
+[![Skills](https://img.shields.io/badge/Skills-384-success)](https://github.com/Adhamxon/opencode-ultimate-skills)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Adhamxon/opencode-ultimate-skills/pulls)
+[![Maintained](https://img.shields.io/badge/maintained-yes-success)](https://github.com/Adhamxon/opencode-ultimate-skills)
 
 A comprehensive, production-ready collection of **384 curated skills**, **9 specialized agents**, and **9 custom commands** for [OpenCode](https://opencode.ai) — the AI-powered coding assistant.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [Usage](#usage)
+- [Skills Catalog](#skills-catalog)
+- [Whats New v30](#whats-new-v30)
+- [Configuration](#configuration)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -209,25 +227,24 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## License
 
-[MIT](LICENSE) — Free for personal and commercial use.
+MIT — free for personal and commercial use. See [LICENSE](LICENSE) for full terms.
 
-## Attribution Requirements
+Copyright (c) 2026 Adkhamkhon
 
-> **Using this collection as your own project?** You must credit the original source.
-
-> **Using individual skills in your project?** Each copied `SKILL.md` **must** include a comment:
-> ```markdown
-> <!-- Source: https://github.com/Adhamxon/opencode-ultimate-skills — Copyright (c) 2026 Adkhamkhon -->
-> ```
-
-See [NOTICE.md](NOTICE.md) for detailed attribution rules.
+See [NOTICE.md](NOTICE.md) for attribution requirements if you reuse individual files.
 
 ---
 
 ## Acknowledgments
 
-- [Anthropic](https://anthropic.com) — Official Claude skills collection
+- [Anthropic](https://anthropic.com) — Official Claude skills collection and Claude Code
 - [Matt Pocock](https://github.com/mattpocock) — Engineering workflow skills
+- [Addy Osmani](https://github.com/addyosmani) — Agent development patterns
 - [Google Cloud](https://cloud.google.com) — Cloud product skills
+- [HuggingFace](https://huggingface.co) — ML/AI training tools
 - [Awesome GitHub Copilot](https://github.com/awesome-github-copilot) — Community skills collection
-- [Code Review Skill](https://github.com/Adhamxon/opencode-ultimate-skills) — Multi-language review guides
+- [Wondelai](https://github.com/wondelai) — Book-based engineering skills
+
+---
+
+*Built for OpenCode. Powered by the community. Maintained by Adkhamkhon.*
