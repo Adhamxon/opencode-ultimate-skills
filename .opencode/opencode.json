@@ -1,0 +1,157 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "username": "developer",
+  "model": "anthropic/claude-sonnet-4-6",
+  "small_model": "anthropic/claude-haiku-4-5",
+  "default_agent": "fullstack-dev",
+
+  "logLevel": "INFO",
+  "autoupdate": "notify",
+
+  "skills": {
+    "paths": [".opencode/skills"]
+  },
+
+  "agent": {
+    "fullstack-dev": {
+      "description": "Full-stack dasturchi: frontend, backend, database, API loyihalash va implementatsiya",
+      "mode": "primary",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "allow", "bash": { "git *": "allow", "npm *": "allow", "*": "ask" } }
+    },
+    "code-reviewer": {
+      "description": "Kod review bo'yicha mutaxassis: kod sifatini tekshiradi, bug'larni topadi, optimizatsiya qiladi",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "deny", "read": "allow", "bash": { "git diff *": "allow", "*": "deny" } }
+    },
+    "devops-engineer": {
+      "description": "DevOps muhandisi: CI/CD, Docker, Kubernetes, cloud infrastruktura, monitoring",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "allow", "bash": { "docker *": "allow", "kubectl *": "allow", "*": "ask" } }
+    },
+    "tdd-developer": {
+      "description": "Test-Driven Development bo'yicha mutaxassis: test yozish, refactoring, clean code",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "allow", "bash": { "npm test *": "allow", "*": "ask" } }
+    },
+    "architect": {
+      "description": "Arxitektura bo'yicha mutaxassis: domain modeling, codebase design, microservices, patterns",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "deny", "read": "allow", "bash": "ask" }
+    },
+    "security-auditor": {
+      "description": "Security audit bo'yicha mutaxassis: OWASP, dependency check, code security review",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "deny", "read": "allow", "bash": "ask" }
+    },
+    "qa-engineer": {
+      "description": "Quality Assurance: test plan, E2E testing, Playwright, integration tests",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "deny", "bash": "ask" }
+    },
+    "bug-hunter": {
+      "description": "Bug diagnosis bo'yicha mutaxassis: reproduce qilish, root cause analysis, fix+test",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "allow", "bash": { "*": "ask" } }
+    },
+    "designer": {
+      "description": "UI/UX dizayner: frontend design, animation, responsive design, CSS/HTML",
+      "mode": "subagent",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": { "edit": "allow", "bash": "ask" }
+    }
+  },
+
+  "command": {
+    "deploy": {
+      "description": "Loyihani deploy qilish (build + deploy)",
+      "agent": "devops-engineer",
+      "template": "Loyihani deploy qilish kerak. $ARGUMENTS"
+    },
+    "test": {
+      "description": "Testlarni ishga tushirish va tahlil qilish",
+      "agent": "qa-engineer",
+      "template": "Testlarni ishga tushur va tahlil qil. $ARGUMENTS"
+    },
+    "review": {
+      "description": "Kod review qilish",
+      "agent": "code-reviewer",
+      "template": "Kodni review qil. $ARGUMENTS"
+    },
+    "build": {
+      "description": "Loyihani build qilish",
+      "template": "Loyihani build qil. $ARGUMENTS"
+    },
+    "fix": {
+      "description": "Bug/lar ni tuzatish",
+      "agent": "bug-hunter",
+      "template": "Bug/topshiriq ni tuzat. $ARGUMENTS"
+    },
+    "arch": {
+      "description": "Arxitektura maslahati olish",
+      "agent": "architect",
+      "template": "Arxitektura bo'yicha maslahat ber. $ARGUMENTS"
+    },
+    "design": {
+      "description": "UI/UX design yaratish",
+      "agent": "designer",
+      "template": "UI/UX design yarat. $ARGUMENTS"
+    },
+    "security": {
+      "description": "Security audit o'tkazish",
+      "agent": "security-auditor",
+      "template": "Security audit o'tkaz. $ARGUMENTS"
+    },
+    "tdd": {
+      "description": "TDD cycle boshlash (test-first development)",
+      "agent": "tdd-developer",
+      "template": "TDD bo'yicha ishlashni boshlaymiz. $ARGUMENTS"
+    }
+  },
+
+  "permission": {
+    "edit": "allow",
+    "bash": { "git *": "allow", "npm *": "allow", "npx *": "allow", "docker *": "ask", "*": "ask" },
+    "read": "allow"
+  },
+
+  "provider": {},
+
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "-y", "@playwright/mcp"],
+      "enabled": false
+    },
+    "github": {
+      "type": "remote",
+      "url": "https://api.github.com/mcp",
+      "enabled": false,
+      "headers": {}
+    }
+  },
+
+  "references": {
+    "docs": {
+      "path": "..",
+      "description": "Loyiha hujjatlari va kod bazasi"
+    }
+  },
+
+  "tool_output": {
+    "max_lines": 300,
+    "max_bytes": 10240
+  },
+
+  "experimental": {
+    "primary_tools": ["edit", "bash", "read", "glob", "grep", "task"],
+    "mcp_timeout": 30000
+  }
+}
