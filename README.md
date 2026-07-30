@@ -242,7 +242,7 @@ See [NOTICE.md](NOTICE.md) for attribution requirements if you reuse individual 
 - [Addy Osmani](https://github.com/addyosmani) — Agent development patterns
 - [Google Cloud](https://cloud.google.com) — Cloud product skills
 - [HuggingFace](https://huggingface.co) — ML/AI training tools
-- [Awesome GitHub Copilot](https://github.com/awesome-github-copilot) — Community skills collection
+- [Awesome GitHub Copilot](https://github.com/copilot) — Community skills collection
 - [Wondelai](https://github.com/wondelai) — Book-based engineering skills
 
 ---
