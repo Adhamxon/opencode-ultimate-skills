@@ -164,11 +164,16 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 [MIT](LICENSE) — Free for personal and commercial use.
 
-**Attribution Required:** If you use, modify, or distribute this work, you must include the original copyright notice:
-```
-Copyright (c) 2026 Adkhamkhon
-```
-See [LICENSE](LICENSE) for full terms.
+## Attribution Requirements
+
+> **Using this collection as your own project?** You must credit the original source.
+
+> **Using individual skills in your project?** Each copied `SKILL.md` **must** include a comment:
+> ```markdown
+> <!-- Source: https://github.com/Adhamxon/opencode-ultimate-skills — Copyright (c) 2026 Adkhamkhon -->
+> ```
+
+See [NOTICE.md](NOTICE.md) for detailed attribution rules.
 
 ---
 
