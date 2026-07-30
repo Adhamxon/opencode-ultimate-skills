@@ -90,8 +90,8 @@ The collection includes **154 skills** organized by source:
 ### Matt Pocock Engineering Skills (22)
 `matt-code-review` · `matt-tdd` · `matt-diagnosing-bugs` · `matt-domain-modeling` · `matt-implement` · `matt-research` · `matt-prototype` · `matt-wayfinder` · `matt-triage` · `matt-to-spec` · `matt-to-tickets` · `matt-codebase-design` · `matt-resolving-merge-conflicts` · `matt-improve-codebase-architecture` · `matt-writing-great-skills` · `matt-teach` · `matt-handoff` · `matt-grilling` · `matt-setup-pre-commit` · `matt-git-guardrails` · `matt-scaffold-exercises` · `matt-migrate-to-shoehorn`
 
-### Addy Osmani Agent Skills (24) ⭐ NEW
-`spec-driven-development` · `code-simplification` · `debugging-and-error-recovery` · `security-and-hardening` · `ci-cd-and-automation` · `incremental-implementation` · `planning-and-task-breakdown` · `frontend-ui-engineering` · `context-engineering` · `git-workflow-and-versioning` · `source-driven-development` · `shipping-and-launch` · `documentation-and-adrs` · `api-and-interface-design` · `doubt-driven-development` · `deprecation-and-migration` · `browser-testing-with-devtools` · `code-review-and-quality` · `observability-and-instrumentation` · `idea-refine` · `interview-me` · `using-agent-skills` · `performance-optimization` · `testing-strategies`
+### Addy Osmani Agent Skills (22) ⭐ NEW
+`spec-driven-development` · `code-simplification` · `debugging-and-error-recovery` · `security-and-hardening` · `ci-cd-and-automation` · `incremental-implementation` · `planning-and-task-breakdown` · `frontend-ui-engineering` · `context-engineering` · `git-workflow-and-versioning` · `source-driven-development` · `shipping-and-launch` · `documentation-and-adrs` · `api-and-interface-design` · `doubt-driven-development` · `deprecation-and-migration` · `browser-testing-with-devtools` · `code-review-and-quality` · `observability-and-instrumentation` · `idea-refine` · `interview-me` · `using-agent-skills`
 
 ### Curated Skills (25)
 `figma` · `figma-code-connect-components` · `figma-create-design-system-rules` · `figma-create-new-file` · `figma-generate-design` · `figma-implement-design` · `figma-use` · `playwright` · `playwright-interactive` · `vercel-deploy` · `netlify-deploy` · `cli-creator` · `security-best-practices` · `security-threat-model` · `sentry` · `linear` · `screenshot` · `speech` · `define-goal` · `yeet` · `sys-openai-docs` · `sys-skill-creator` · `sys-skill-installer` · `pdf` · `code-review` (full multi-language)
@@ -111,8 +111,8 @@ The collection includes **154 skills** organized by source:
 ### Karpathy Guidelines (1) ⭐ NEW
 `karpathy-guidelines`
 
-### Custom Enhanced Skills (10) ⭐ NEW
-`ai-ml-engineering` · `api-design-best-practices` · `auth-authorization` · `database-optimization` · `message-queues` · `mobile-development` · `observability` · `system-design` · `web-accessibility` · `performance-optimization`
+### Custom Enhanced Skills (11) ⭐ NEW
+`ai-ml-engineering` · `api-design-best-practices` · `auth-authorization` · `database-optimization` · `message-queues` · `mobile-development` · `observability` · `performance-optimization` · `system-design` · `testing-strategies` · `web-accessibility`
 
 ### Copilot Community Skills (24)
 `copilot-cli-mastery` · `copilot-codeql` · `copilot-conventional-commit` · `copilot-diagnose` · `copilot-draw-io-diagram-generator` · `copilot-git-commit` · `copilot-github-actions-efficiency` · `copilot-mcp-cli` · `copilot-postgresql-optimization` · `copilot-postgresql-code-review` · `copilot-sql-optimization` · `copilot-sql-server-table-reconciliation` · `copilot-security-review` · `copilot-typescript-mcp-server-generator` · `copilot-python-mcp-server-generator` · `copilot-java-springboot` · `copilot-csharp-async` · `copilot-dotnet-best-practices` · `copilot-azure-architecture-autopilot` · `copilot-terraform-azurerm-set-diff-analyzer` · `copilot-react-audit-grep-patterns` · `copilot-playwright-generate-test` · `copilot-architecture-blueprint-generator` · `copilot-create-implementation-plan`
@@ -125,11 +125,11 @@ This major update adds **42 new skills** from top community sources:
 
 | Source | Skills Added |
 |--------|-------------|
-| **Addy Osmani Agent Skills** | 24 professional engineering skills (spec-driven, code-simplification, debugging, CI/CD, security, planning, etc.) |
+| **Addy Osmani Agent Skills** | 22 professional engineering skills (spec-driven, code-simplification, debugging, CI/CD, security, planning, etc.) |
 | **Awesome LLM Apps** | 5 agent skills (commit-archaeologist, project-graveyard, scope-creep-detector, thinking-out-loud, advisor-orchestrator-worker) |
 | **HuggingFace** | 3 ML/AI skills (TRL training, Transformers.js, Sentence Transformers) |
 | **Karpathy Guidelines** | 1 skill — 4 fundamental principles for AI coding |
-| **Custom Enhanced** | 10 specialized skills (AI/ML, API design, auth, databases, messaging, mobile, observability, system design, accessibility, performance) |
+| **Custom Enhanced** | 11 specialized skills (AI/ML, API design, auth, databases, messaging, mobile, observability, performance, system design, testing, accessibility) |
 
 **[View full changelog →](CHANGELOG.md)**
 
